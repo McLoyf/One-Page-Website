@@ -6,7 +6,6 @@ body {
   background-color: pink;
   border: 5px solid black;
   padding: 1em;
-  display: inline-block;
 }
 
 .box1{
@@ -18,4 +17,35 @@ body {
 .alternate{
   box-sizing: border-box;
   margin: 20px auto;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  padding:1rem 2rem;
+  background-color: #333;
+  border-radius: 1rem;
+}
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+.nav a {
+  color:white;
+  text-decoration: none;
+}
+.nav a:hover{
+  color:black;
+  text-decoration: underline;
+}
+button{
+  border-radius: 10%;
+  height:40px;
+  width:50px
+}
+button:hover{
+  color:white;
+  background-color: black;
+}
+.logo img{
+  border-radius: 15%;
 }
